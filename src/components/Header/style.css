@@ -1,0 +1,23 @@
+.header-container {
+  background-color: #ffba00;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  box-shadow: 0 1px 2px #ccc;
+}
+
+.header-title {
+  color: black;
+  font-size: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .header-container {
+    position: fixed;
+    width: 100%;
+  }
+
+  .header-title {
+    font-size: 1.3rem;
+  }
+}

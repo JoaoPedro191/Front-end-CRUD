@@ -1,0 +1,12 @@
+@import "@radix-ui/colors/blackA.css";
+
+.Button.LimeGreen {
+  background-color: #32cd32;
+  color: white;
+  box-shadow: 0 2px 10px var(--blackA7);
+  height: 40px;
+}
+
+.Button.LimeGreen:hover {
+  box-shadow: inset 200px 0 0 #00000055;
+}
