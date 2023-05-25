@@ -55,7 +55,7 @@ const UsersContextProvider = ({ children }: UsersContextProviderProps) => {
   const [phone, setPhone] = useState<string>("");
   const [city, setCity] = useState<string>("");
 
-  const url = "https://back-end-crud-usuarios-joaopedro191.vercel.app/users";
+  const url = "https://back-end-crud.vercel.app/users";
 
   const createUser = async (event: FormEvent) => {
     try {
